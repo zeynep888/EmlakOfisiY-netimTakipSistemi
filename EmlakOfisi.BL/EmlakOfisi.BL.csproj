@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EmlakOfisi.BL</RootNamespace>
+    <AssemblyName>EmlakOfisi.BL</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmlakOfisi.DAL\EmlakOfisi.DAL.csproj" />
+  </ItemGroup>
+</Project>

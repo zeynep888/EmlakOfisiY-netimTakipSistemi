@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>EmlakOfisi.UI</RootNamespace>
+    <AssemblyName>EmlakOfisi.UI</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmlakOfisi.BL\EmlakOfisi.BL.csproj" />
+    <ProjectReference Include="..\EmlakOfisi.DAL\EmlakOfisi.DAL.csproj" />
+  </ItemGroup>
+</Project>
